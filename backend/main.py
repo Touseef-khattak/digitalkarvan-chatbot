@@ -78,8 +78,8 @@ RULES:
 """
 
 # Initialize Models
-agency_model = genai.GenerativeModel(model_name='gemini-1.5-flash', system_instruction=AGENCY_SYSTEM_PROMPT)
-touseef_model = genai.GenerativeModel(model_name='gemini-1.5-flash', system_instruction=TOUSEEF_TWIN_PROMPT)
+agency_model = genai.GenerativeModel(model_name='gemini-2.5-flash', system_instruction=AGENCY_SYSTEM_PROMPT)
+touseef_model = genai.GenerativeModel(model_name='gemini-2.5-flash', system_instruction=TOUSEEF_TWIN_PROMPT)
 
 app = FastAPI()
 
